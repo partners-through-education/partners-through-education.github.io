@@ -2,6 +2,11 @@
 
 This repo contains the wordpress static output files as well as the MySQL database from which the website is run.
 
+Some folder information:
+
+* `ptedu-wordpress`: This folder contains the wordpress installation.
+* `wordpress`: This folder contains the MySQL databases that store all of the site information.
+
 ## Set Up MySQL on MAMP
 
 Once you have MAMP set up, you need to create a symbolic link between the `wordpress` directory in this repo and the folder where MAMP stores the MySQL databases.
