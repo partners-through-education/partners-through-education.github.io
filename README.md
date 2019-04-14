@@ -19,4 +19,8 @@ ln -s ~/path/to/website/wordpress /Applications/MAMP/db/mysql57
 
   This creates the symbolic link.
 
-2. Now [download WordPress](https://wordpress.org/download/) and place it in the directory that your MAMP installation links to. Call this folder `ptedu-wordpress`.
+2. Now clone [the WordPress installation repo](https://github.com/partners-through-education/ptedu-wordpress) locally and create a symbolic link from that folder to wherever your MAMP server is set up to access files from:
+
+```bash
+ln -s ~/path/to/ptedu-wordpress ~/path/to/server/home
+```
